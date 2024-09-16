@@ -1,2 +1,2 @@
-# parcialPoker
-Parcial inicial de poker
+# ejercicioPoker
+Ejercicio Poker
