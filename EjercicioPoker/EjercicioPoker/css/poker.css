@@ -1,0 +1,67 @@
+header {
+    background-color: #000000;
+}
+
+.img-logo {
+    padding: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Nuevos estilos para la página de cartas */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e6f2ff;
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btncarta {
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.btncarta:hover {
+    transform: scale(1.05);
+}
+
+.img-thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
